@@ -1,0 +1,66 @@
+print("learning R")
+
+
+print(10)
+print(10*5)
+integer('a')
+a =10*5
+ten1 =10
+coursename= 'DA'
+course name='DA'
+course_name='DA'
+rm(ten1)
+rm(coursename)
+10
+ten=10L
+class(ten)
+f=10.2
+class(f)
+city='pune'
+class(city)
+boolean <-FALSE
+class(boolean)
+age <- 20,21,25,26,23
+age <- c(20,21,25,26,23)
+info = c('sakshi',25,145.32,TRUE)
+info
+info[2]
+age[2]
+age[1,2,3]
+age[1:3]
+info[c(1,3)]
+info[c(1,4)]
+age[c(1,3,5)]
+
+info
+info[2] <- '22'
+info
+info[1] <- 'ssp'
+info[c(1,4)] <- c('Tarun','FALSE')
+info
+
+lst =list('sakshi',20,165.52,T)
+lst
+lst[2:4]
+lst[c(1,4)]
+lst[3] = "pune"
+lst
+
+#creating Data Frame
+
+ID = c(100,101,102,103,104)
+Name = c('A','B','C','D','E')
+Age = c(20,23,25,30,35)
+Dept = c('HR','Mumbai','DA','DS','Marketing')
+data.frame(ID,Name,Age,Dept)
+df = data.frame(ID,Name,Age,Dept)
+View(df)
+df[1,5]
+df[3,4]
+df[1:2,3:4]
+
+
+df[1,c(1,4)]
+df[c(2,4),c(1,4)]
+df(3,4) = "Data Analyst"
+df[4,4] = 'Data Scientist'
